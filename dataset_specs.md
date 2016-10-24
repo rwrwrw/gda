@@ -80,12 +80,20 @@ Polyline outlines of amenity spaces.
 ]
 ```
 
-### d-09 Neighborhood data
+### d-09 Graph assignment data
 
 ```
-{ 
-    neighborhood id (int) : [graph node id for desks (int), ...],
-    ...
+{   
+    "neighborhoods" :
+        { 
+            neighborhood id (int) : [graph node id for desks (int), ...],
+            ...
+        },
+    "amenities" :
+        {
+            "amenity name" (str) : [graph node ids (int), ...],
+            ...
+        }
 }
 ```
 
@@ -118,11 +126,12 @@ Polyline outlines of amenity spaces.
 }
 ```
 
-### d-12 Amenity assignment data
+### d-12 Amenity location data
 
 ```
 {
-    "name of amenity" (str) : [ graph node id for amenity door (int), ...],
+    "name of amenity" (str) : [ x, y, z ],
+    ...
 }
 ```
 
