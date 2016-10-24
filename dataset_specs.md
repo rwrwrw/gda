@@ -32,7 +32,8 @@ Layer structure:
         "med" : [str, str, ...],
         "low" : [str, str, ...]
       }
-  }
+  },
+  ...
 }
 
 ### d-04 (.json) Amenity space matrix
