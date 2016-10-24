@@ -10,6 +10,7 @@
 Rhino file with all base geometry.
 
 Layer structure:
+- circulation - separate polylines indicating all vertical circulation routes
 
 ### d-03 (.json) Team preference
 
