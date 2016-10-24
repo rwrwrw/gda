@@ -130,7 +130,7 @@ Polyline outlines of amenity spaces.
 
 ```
 {
-    "name of amenity" (str) : [ x, y, z ],
+    "name of amenity" (str) : [ [ x, y, z ], ... ]
     ...
 }
 ```
