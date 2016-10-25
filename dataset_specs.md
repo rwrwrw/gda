@@ -170,15 +170,15 @@ Polyline outlines of amenity spaces.
 ```
 { "nodes" :
       [
-          { "coords" : [x, y, z], "traversal": number of traversals (int) },
+          { "id" : node id in full graph (int),
+            "coords" : [x, y, z], 
+            "traversal": number of traversals (int) 
+          },
           ...
       ]
   "edges" :
       {
-          start node index (int) : { 
-              end node index (int) : number of traversals (int),
-              ...
-          },
+          ( start node index (int), end node index (int) ) (tup) : number of traversals (int),
           ...
       }
 }
