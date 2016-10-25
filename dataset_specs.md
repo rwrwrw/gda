@@ -147,14 +147,13 @@ Polyline outlines of amenity spaces.
 ### d-14 Edge traversal data
 
 ```
-[
-    {
-        "start point" : [x, y, z],
-        "end point" : [x, y, z],
-        "traversal" : number of traversals (int)
+{
+    graph node id (int) : {
+        graph node id (int) : number of traversals (int),
+        ...
     },
     ...
-]
+}
 ```
 
 ### d-15 Distraction data
