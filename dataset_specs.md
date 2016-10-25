@@ -164,3 +164,23 @@ Polyline outlines of amenity spaces.
     ...
 }
 ```
+
+### d-16 Buzz graph
+
+```
+{ "nodes" :
+      [
+          { "id" : node id in full graph (int),
+            "coords" : [x, y, z], 
+            "traversal": number of traversals (int) 
+          },
+          ...
+      ]
+  "edges" :
+      {
+          ( start node index (int), end node index (int) ) (tup) : number of traversals (int),
+          ...
+      }
+}
+          
+```
